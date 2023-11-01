@@ -3,4 +3,4 @@ kind: Namespace
 metadata: 
   name: declarative-files
   labels:
-    namespace: declarative-files
+    name: imperative-config-test
