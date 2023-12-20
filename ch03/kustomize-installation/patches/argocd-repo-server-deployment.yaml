@@ -8,6 +8,6 @@ spec:
     spec:
       containers:
         - name: argocd-repo-server
-      # env:
-      #   - name: "ARGOCD_EXEC_TIMEOUT"
-      #     value: "3m"
+      env:
+        - name: "ARGOCD_EXEC_TIMEOUT"
+          value: "3m"
