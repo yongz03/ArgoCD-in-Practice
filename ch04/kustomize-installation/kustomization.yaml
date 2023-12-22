@@ -10,4 +10,4 @@ resources:
 
 patchesStrategicMerge:
   - patches/argocd-cm.yaml
-  - patches/argocd-rbac-cm.yaml
+  # - patches/argocd-rbac-cm.yaml
